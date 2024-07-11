@@ -69,14 +69,9 @@ const NavBar = () => {
           <FaBell className="w-7 h-7 text-[#8064A2]" />
           <PiShoppingCartSimpleFill className="w-7 h-7 text-[#8064A2]" />
           <div className="flex items-center gap-3">
-            <Image
-              src={userImg}
-              alt="user image"
-              className="w-10 h-10 rounded-full"
-              width={0}
-              height={0}
-            />
-            <RiArrowDropDownLine className="w-8 h-8 text-[#939ca3]" />
+            <button className="hover:bg-[#8064A2] border border-[#8064A2] py-1 md:py-2 px-2 md:px-4 rounded-lg font-medium text-sm md:text-xl text-[#8064A2] hover:text-white transform duration-300">
+              Sign In
+            </button>
           </div>
         </div>
       </div>
@@ -129,14 +124,9 @@ const NavBar = () => {
             </li>
             <li>
               <div className="flex items-center gap-3">
-                <Image
-                  src={userImg}
-                  alt="user image"
-                  className="w-10 h-10 rounded-full"
-                  width={0}
-                  height={0}
-                />
-                <RiArrowDropDownLine className="w-8 h-8 text-[#939ca3]" />
+                <button className="hover:bg-[#8064A2] border-[#8064A2] py-1 md:py-2 px-2 md:px-4 rounded-lg font-medium text-sm md:text-xl text-[#8064A2] hover:text-white">
+                  Sign In
+                </button>
               </div>
             </li>
           </ul>

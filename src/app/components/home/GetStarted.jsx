@@ -3,7 +3,7 @@ import img from "../../assets/getStarted.jpg";
 
 const GetStarted = () => {
   return (
-    <div className="max-w-6xl mx-auto space-y-4 my-10 px-5 md:px-0">
+    <div className="max-w-7xl mx-auto space-y-4 my-10 px-5 md:px-32 md:py-10">
       <h1 className="text-xl md:text-3xl font-medium">
         Your <span className="text-[#8064A2]">Hobby</span> , Your
         <span className="text-[#0096C8]"> Community...</span>
