@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import GetStarted from "./components/home/GetStarted";
 
 const Home = () => {
   return (
     <div>
-      <p>Home</p>
+      <GetStarted />
     </div>
   );
 };
