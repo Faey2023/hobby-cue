@@ -10,13 +10,12 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[#FFFFFF] dark:bg-gray-900">
+      <footer className="bg-[#FFFFFF] ">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-around space-y-2 md:space-y-0">
             {/* links div */}
-            {/* <div className="flex flex-col md:flex-row gap-10 md:items-center"> */}
             <ul className="space-y-2">
-              <li className="font-semibold mb-4">Hobbycue</li>
+              <li className="font-semibold mb-4">Hobby Cue</li>
               <li className=" cursor-pointer">Contact Us</li>
               <li className=" cursor-pointer">Our Services</li>
               <li className=" cursor-pointer">Work with Us</li>
